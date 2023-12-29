@@ -1,0 +1,186 @@
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the main container */
+.main-container {
+  background-color: #7FC7E7;
+  height: auto;
+}
+
+/* Styles for the parent container */
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Styles for the data display container */
+.show-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Styles for the tables */
+.tabels {
+  background-color: #8F95C3;
+  color: white;
+  margin-top: 30px; /* Adjusted margin-top */
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 80px; /* Adjusted border-radius */
+  box-shadow: 10px 10px 7px rgba(255, 255, 255, 0.5); /* Adjusted box-shadow */
+}
+
+/* Styles for text input elements */
+.text-1,
+.text-2 {
+  border: none;
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px black;
+  margin-bottom: 10px; /* Added margin-bottom */
+}
+
+/* Styles for button with id 'btn-1' */
+#btn-1{
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+#btn-2{
+  width: 200px;
+  height: 40px;
+  border: none;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+/* Styles for labels */
+.label-1{
+  font-size: 30px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  color: #333;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+ 
+
+
+}
+.label-2 {
+  font-size: 30px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  color: #333;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Styles for lists */
+.list-1 {
+  list-style: none;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+  width: 300px;
+}
+
+.list-2 {
+  font-size: 15px;
+  list-style: none;
+  width: 200px;
+}
+
+/* Styles for buttons with classes 'done' and 'change' */
+.done,
+.change {
+  width: 120px; /* Adjusted width */
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+input[type="text"]
+{
+    font-size:18px;
+    padding-left: 10px;
+}
+/* Additional styles can be added or adjusted based on your specific requirements. */
+@media only screen and (max-width:767px) {
+  .main-container {
+    background-color:#7FC7E7;
+    height: 100%;
+  }
+
+  .tabels {
+    background-color: #8F95C3;
+    color: white;
+    margin-top: 30px; /* Adjusted margin-top */
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px; /* Adjusted border-radius */
+    box-shadow: 10px 10px 7px rgba(255, 255, 255, 0.5); /* Adjusted box-shadow */
+  }
+
+.label-1,
+.label-2 {
+  font-size: 30px;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  color: #333;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.text-1,
+.text-2 {
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px black;
+  margin-bottom: 10px; /* Added margin-bottom */
+}
+
+.list-1 {
+  list-style: none;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+  width: 100px;
+}
+
+.list-2 {
+  font-size: 15px;
+  list-style: none;
+  width: 100px;
+}
+  
+
+  
+}
